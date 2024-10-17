@@ -50,16 +50,27 @@ function App() {
       </div>
       
   <footer>
-    <h2>Personal Loan Features & Benefits</h2>
-  <div className='cardcomponents'>
     
+  <div className='cardcomponents'>
+  <h2>Personal Loan Features & Benefits</h2>
     <ul className='cardimgtx'>
       <li>
+        <p>Instant<br /> Cash in<br /> Bank</p>
         <img src={card1m} alt="img1"  />
       </li>
-      <li><img src={card2m} alt="img2" /></li>
-      <li><img src={card3m} alt="img3" /></li>
-      <li><img src={card4m} alt="img4" /></li>
+      <li>
+        <p>Flexible<br /> Repayment<br />Tenures</p>
+        <img src={card2m} alt="img2" />
+        </li>
+      <li>
+        <p>Attractive <br />Interest <br />Rates</p>
+        <img src={card3m} alt="img3" />
+        </li>
+      <li>
+        <p>Minimal<br /> Documentation
+        </p>
+        <img src={card4m} alt="img4" />
+        </li>
     </ul>
   
    </div>

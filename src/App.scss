@@ -93,7 +93,9 @@
   }
 
   .cardcomponents {
-
+    h2 {
+      padding-left: 44px;
+    }
 
     .cardimgtx {
       display: flex;
@@ -101,13 +103,22 @@
       align-items: center;
       list-style: none;
 
+
       li {
         position: relative;
         height: 120px;
         width: 220px;
-        background: url('./assets/cardbacg.webp') no-repeat center center / cover, 
-                        url('./assets/card1m.avif') no-repeat bottom right;
-        img{
+        background: url('./assets/cardbacg.webp') no-repeat center center / cover,
+          url('./assets/card1m.avif') no-repeat bottom right;
+        border-top-left-radius: 20px;
+
+        p {
+          font-size: 20px;
+          font-weight: 700;
+          padding-left: 10px;
+        }
+
+        img {
           position: absolute;
           bottom: 0;
           right: 0;
@@ -117,4 +128,5 @@
       }
     }
   }
+
 }
