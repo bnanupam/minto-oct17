@@ -3,6 +3,9 @@ import './App.scss'
 import Secure from './assets/img1.avif'
 import girlimg from './assets/bannerimg.avif'
 import card1m from './assets/card1m.avif'
+import card2m from './assets/card2m.avif'
+import card3m from './assets/card3m.avif'
+import card4m from './assets/card4m.avif'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -54,9 +57,9 @@ function App() {
       <li>
         <img src={card1m} alt="img1"  />
       </li>
-      <li>card2</li>
-      <li>card3</li>
-      <li>card4</li>
+      <li><img src={card2m} alt="img2" /></li>
+      <li><img src={card3m} alt="img3" /></li>
+      <li><img src={card4m} alt="img4" /></li>
     </ul>
   
    </div>
