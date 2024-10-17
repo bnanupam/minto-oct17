@@ -31,7 +31,7 @@
   }
 
   .maincontainer {
-    background-image: url("./assets/image/girl_bg_web_latest.svg");
+    background-image: url("./assets/girl_bg_web_latest.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
     display: flex;
@@ -61,7 +61,7 @@
     .para {
       position: relative;
       &::before {
-        background-image: url(./assets/image/pf-icon-sprite.svg);
+        background-image: url(./assets/pf-icon-sprite.svg);
         background-position: 0 -163px;
         height: 22px;
         width: 22px;
