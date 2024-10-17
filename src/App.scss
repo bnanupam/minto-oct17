@@ -1,7 +1,86 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+// @import url('./assets//scss/variables.scss');
 
+.container {
+  width: 980px;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #413e3e;
+    .washButton {
+      border: 1px solid #dddddd;
+      border-radius: 30px;
+      width: 80px;
+      vertical-align: middle;
+      line-height: 30px;
+      height: 40px;
+      background-color: rgb(36, 238, 97);
+
+      &::after {
+        color: #252323;
+        background-color: aliceblue;
+        border-radius: 50%;
+        display: inline-block;
+        content: "fin";
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+
+  .maincontainer {
+    background-image: url("./assets/image/girl_bg_web_latest.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      font-weight: bolder;
+      color: rgb(245, 133, 28);
+    }
+    .securebtn {
+      padding-top: 10px;
+
+      .discription {
+        font-weight: bolder;
+        font-size: 40px;
+      }
+
+      p {
+        font-size: large;
+        font-weight: 700;
+      }
+    }
+    .telbox {
+      height: 25px;
+      width: 235px;
+    }
+    .para {
+      position: relative;
+      &::before {
+        background-image: url(./assets/image/pf-icon-sprite.svg);
+        background-position: 0 -163px;
+        height: 22px;
+        width: 22px;
+        display: inline-block;
+        position: absolute;
+        left: -30px;
+        top: 0;
+        content: "";
+        color: #4c5d80;
+      }
+    }
+    .landingPageCss_button___D_Bd {
+      height: 35px;
+      width: 250px;
+      background-color: #f29411;
+      border-radius: 1em;
+    }
+    .detail {
+      font-size: 16px;
+    }
+  }
+}
