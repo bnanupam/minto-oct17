@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.scss'
 import Secure from './assets/img1.avif'
 import girlimg from './assets/bannerimg.avif'
+import card1m from './assets/card1m.avif'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -44,18 +45,24 @@ function App() {
           <img src={girlimg} alt="girlimg1" height={364} width={364} />
         </div>
       </div>
+      
   <footer>
     <h2>Personal Loan Features & Benefits</h2>
-   <ul className='footercard'>
-
-    <li>
-
-    </li>
-    <li></li>
-    <li></li>
-    <li></li>
-   </ul>
+  <div className='cardcomponents'>
+    
+    <ul className='cardimgtx'>
+      <li>
+        <img src={card1m} alt="img1"  />
+      </li>
+      <li>card2</li>
+      <li>card3</li>
+      <li>card4</li>
+    </ul>
+  
+   </div>
+   
   </footer>
+
     </div>
   )
 }
